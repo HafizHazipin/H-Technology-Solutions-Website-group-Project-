@@ -1,0 +1,139 @@
+html{
+	scroll-behavior: smooth;
+}
+
+/*custom-font*/
+@font-face {
+      font-family: Audiowide;
+      src: url(font/Audiowide-Regular.ttf);
+}
+
+@font-face {
+      font-family: Atmospheric;
+      src: url(font/aAtmospheric.ttf);
+}
+h1{
+	font-family: Audiowide; 
+}
+
+/*logo*/
+.navbar-brand{
+	font-family: Atmospheric;
+	text-shadow: 1px 1px 2px black, 0 0 1em #6a6044;
+}
+
+#hLogo{ 
+	height: 2.5em;
+	width: auto;
+	padding-right: 2px;
+}
+
+/*jumbotron Section*/
+.Hjumbo{
+	background-image: url(img/Jumbobg.png);
+	background-size: cover;
+	height: 600px;
+}
+
+#jumboParaRow{
+	margin-left: 50px;
+}
+
+#jumboPara{
+  margin-top: 400px;
+  margin-right: : 200px;
+}
+/*About Us Section*/
+#aboutUsbg{
+	margin-top: -34px;
+	background-image: url(img/aboutUSbg.png);
+	background-size: cover;
+	height: 400px;
+}
+
+#aboutUsContent{
+	padding-top: 80px;
+	color: white;
+	font-size:20px;
+}
+
+/*Service & Pricelist Section*/
+.serviceContFluid{
+	background-image: url(img/OurServicebg.png);
+	background-size: cover;
+}
+
+
+.priceList-container h1{
+	padding-top: 80px;
+}
+
+.priceList {
+    padding: 40px;
+}
+
+.priceList .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.priceList .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.priceList img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+/*Corousel*/
+.carousel{
+    box-shadow: 1px 1px 2px #393e5d, 0 0 1em #213149, 0 0 0.2em #020518;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.priceList-container {
+        border-radius: 0;
+    }
+}
+
+/*Contact Section*/
+.contactContent{
+	padding-top: 90px;
+}
+
+.ContactUsbg{
+	background-image:url(img/ContactUsbg.png);
+	background-size: cover;
+	height: 700px;
+	overflow:auto;
+	color: #FFFFFF;
+}
+
+.map-responsive{
+	box-shadow: 1px 1px 2px #393e5d, 0 0 1em #213149, 0 0 0.2em #020518;
+}
+
+#Footer{
+	background-color: #D0D2D4;
+}
+
+/*Form Section*/
+#form{
+	background-color: #213B5D;
+	padding-top: 50px;
+	height: 600px;
+	color: #FFFFFF;
+}
